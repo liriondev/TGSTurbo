@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body {
+	top: 0;
+	left: 0;
+	background: rgb(35, 32, 43);																																																																																																																																																																																																																																																																																																																																																																																																																																																																												;
+}
+
+navbar {
+	display: block;
+}
+
+navbar left {
+	display: block;
+	float: left;
+	background: white;
+	border-radius: 50px;
+	padding: 5px 10px;
+	margin: 20px 0 0 3px;
+	color: #282828;
+}
+
+navbar right {
+	display: block;
+	float: right;
+	background: white;
+	border-radius: 50px;
+	padding: 5px 8px;
+	margin: 20px 5px;
+	color: #282828;
+}
+
+right i {
+	margin: 0;
+}
+
+span, p {
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.title {
+	display: inline-block;
+	position: static;
+	margin: 90% 0 0 50%;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.content-h {
+	margin-top: 70px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.user {
+	width: max-content;
+	display: inline-block;
+	padding: 10px 0 0 0;
+	border-radius: 20px;
+	color: #121212;
+	text-align: center;
+	background: white;
+}
+
+.user img, .user video {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.user span {
+	display: inline;
+	position: relative;
+	top: -13px;
+}
+
+.user button {
+	all: unset;
+	display: block;
+	background: #121212;
+	color: gainsboro;
+	width: 100%;
+	border-radius: 0 0 15px 15px;
+	padding: 5px 0;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.chat {
+	width: 250px;
+	background: white;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.chat #name {
+	color: #282828;
+}
+
+.chat #type {
+	display: inline-block;
+	margin-top: -3px;
+	border-radius: 5px;
+	background: #121212;
+	padding: 3px;
+	color: white;
+	float: right;
+}
+
+.menu, .chat-name {
+	padding: 10px;
+	background: #121212;
+	border-radius: 10px;
+}
+
+.chat-name {
+	color: white;
+	text-align: center;
+	padding: 0.1px 10px;
+	margin: 5px 0;
+}
+
+.menu input {
+	border: none;
+	border-radius: 50px;
+	margin: 5px;
+	text-align: center;
+	color: #121212;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

@@ -1,0 +1,10 @@
+{% extends "include/template.html" %}
+{% block content %}
+	<div class="user">
+		<div style="margin: 0 10px;">
+			<img src="/static/img/profile.png">
+			<span>{{ user.first_name }}</span>
+		</div>
+		<button onclick="location.href='/chats'">Open web pannel</button>
+	</div>
+{% endblock %}
