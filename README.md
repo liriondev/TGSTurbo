@@ -18,7 +18,7 @@ Fast telegram spammer for you
 
 ### Installing
 
-#### Copy git and change work directory
+#### Fast install
 
 ```
 curl https://raw.githubusercontent.com/liriondev/TGSTurbo/main/install.sh | bash
