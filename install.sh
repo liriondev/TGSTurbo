@@ -7,7 +7,7 @@ sleep 1
 
 apt update 
 apt -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"  upgrade -y
-apt isntall python3 git -y
+apt install python3 git -y
 pip3 install pipenv
 git clone https://github.com/liriondev/TGSTurbo
 cd TGSTurbo
