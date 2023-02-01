@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/liriondev/TGSTurbo/blob/main/LICENSE.md">
+    <a href="https://github.com/liriondev/TGSTurbo/blob/main/LICENSE">
 		<img alt="GitHub license" src="https://img.shields.io/github/license/liriondev/TGSTurbo?style=plastic">
 	</a>
     <a href="https://github.com/liriondev/TGSTurbo/stargazers">
@@ -47,4 +47,4 @@ pipenv run python3 main.py
 
 This project is licensed under the GNU General Public License v3.0
 
- - see the [LICENSE.md](LICENSE.md) file for details
+ - see the [LICENSE](LICENSE) file for details
